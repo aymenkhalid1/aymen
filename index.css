@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: bisque;
+    background-color: white;
 }
 
 body{
@@ -87,4 +87,26 @@ body{
     cursor: pointer; 
 }
 
+.form-box{
+    margin-top: 30px;
+}
+
+.input-group input{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 2%;
+    display: inline-block;
+}
+
+.text-area textarea{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    background-color: rgb(226, 226, 226);
+    margin: 2%;
+}
 
